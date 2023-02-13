@@ -1,10 +1,10 @@
 <template>
-  <button :class="buttonClass" :disabled="error || disabled">
+  <button :class="buttonClass" :disabled="error || disabled" >
     {{ text }}
   </button>
 </template>
 <script>
-import {computed} from 'vue'
+import { computed } from 'vue'
 export default {
   name: 'v-button',
   props: {
@@ -27,7 +27,7 @@ export default {
     })
 
     return {
-      buttonClass
+      buttonClass,
     }
   }
 }

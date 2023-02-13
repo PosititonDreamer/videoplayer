@@ -6,6 +6,7 @@
   transition: box-shadow .3s ease-in-out, color .3s ease-in-out;
   color: var(--black);
   font-weight: 600;
+  font-size: 14px;
   text-transform: uppercase;
 
   &:hover, &--error, &:disabled:not(.v-button--error) {
