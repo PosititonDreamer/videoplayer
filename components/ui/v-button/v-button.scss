@@ -1,0 +1,19 @@
+.v-button {
+  padding:10px 20px;
+  border-radius: 4px;
+  box-shadow: 0 0 0 0 var(--primary) inset, 0 0 5px 4px var(--primary);
+  width: max-content;
+  transition: box-shadow .3s ease-in-out, color .3s ease-in-out;
+  color: var(--black);
+  font-weight: 600;
+  text-transform: uppercase;
+
+  &:hover, &--error, &:disabled:not(.v-button--error) {
+    color: var(--white);
+    box-shadow: 0 0 40px 40px var(--primary) inset, 0 0 0 0
+  }
+
+  &:disabled {
+    cursor: default;
+  }
+}
