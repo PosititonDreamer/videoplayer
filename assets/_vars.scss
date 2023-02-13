@@ -1,11 +1,15 @@
 :root {
   --white: #FFFFFF;
   --black: #000000;
+  --grey: #b2b0b0;
   --primary: #579fe0;
+  --red: #ee7777;
 }
+
 .error {
-  --primary: #ee7777;
+  --primary: var(--red);
 }
+
 .not-focus {
-  --primary: #b2b0b0;
+  --primary: var(--grey);
 }
