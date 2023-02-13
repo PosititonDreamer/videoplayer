@@ -1,0 +1,11 @@
+@import "./_generic.scss";
+@import "./_vars.scss";
+@import "./_mixins.scss";
+@import "./_fonts.scss";
+
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Exo', sans-serif;
+}
